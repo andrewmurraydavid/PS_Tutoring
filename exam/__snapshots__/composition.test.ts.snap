@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`After changes create car and wheel: car-design 1`] = `
+"
+        [34mMy car is so cool:[39m
+        - Wheel size: [31m20[39m,
+        - Wheel Color: [31mcarbon[39m
+        - Wheel Friction Factor: [31m0.9[39m
+        "
+`;
+
+exports[`Before changes create car: car-design 1`] = `
+"
+        [34mMy car is so cool:[39m
+        - Wheel size: [31m20[39m,
+        - Wheel Color: [31mcarbon[39m
+        - Wheel Friction Factor: [31m0.9[39m
+        "
+`;

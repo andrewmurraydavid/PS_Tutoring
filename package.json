@@ -1,0 +1,28 @@
+{
+  "name": "ps-tutoring",
+  "version": "1.0.0",
+  "description": "A basic introduction to Software Architecture techniques and patterns",
+  "main": "index.ts",
+  "repository": "git@github.com:andrewmurraydavid/PS_Tutoring.git",
+  "author": "Andrew David Murray <andrewmurraydavid@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon --exec \"ts-node\" index.ts",
+    "exam": "ts-node exam/index.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/node": "^14.0.14",
+    "eslint": "^7.4.0",
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2"
+  }
+}
